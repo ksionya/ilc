@@ -1,0 +1,79 @@
+.header {
+  padding: 48px 0 0;
+
+}
+.header-top {
+  overflow: hidden;
+  padding: 0 0 15px;
+  p {
+    float: left;
+    max-width: 227px;
+    font-size: 12px;
+    line-height: 20px;
+    color: $color1;
+    margin: 16px 0 16px;
+  }
+}
+.logo {
+  display: block;
+  float: left;
+  margin: 0 62px 0 0;
+  img {
+    width: 100%;
+  }
+
+}
+.phone {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: $color1;
+  text-decoration: none;
+  float: right;
+  padding: 27px 0 15px;
+  margin: 0 36px 0 0;
+  &:hover {
+    color: $color2;
+    transition: all 0.2s ease;
+  }
+}
+.btn-login {
+  float: right;
+  font-weight: bold;
+  margin: 8px 0 0;
+  padding: 17px 32px 15px;
+}
+.menu {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    &:first-child {
+      a {
+        padding: 24px 24px 24px 0;
+      }
+    }
+  }
+  a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+    padding: 24px 24px;
+
+    &:hover {
+      color: $color2;
+      transition: all 0.2s ease;
+    }
+  }
+  .btn-login {
+    display: none;
+  }
+}

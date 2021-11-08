@@ -1,0 +1,58 @@
+$color1: #303030;
+$color2: #273895;
+$color3: #2741D0;
+$color4: #2d42b3;
+$color5: #404040;
+
+$font1: Gotham Pro;
+$font2: Montserrat;
+
+
+body {
+  height: 100%;
+  font-family: $font1;
+  color: $color1;
+  background: #F4F7FA;
+  font-size: 14px;
+  line-height: 150%;
+}
+html {
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1320px;
+  position: relative;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 34px 18px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  background: $color2;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    background: $color4;
+    transition: all 0.2s ease;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0 0 16px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: $color1;
+}
